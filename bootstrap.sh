@@ -12,6 +12,6 @@ systemctl status pm2
 pm2 list
 #install nginx
 sudo apt-get install nginx
-cp -i /nginx/sites-available/default /etc/nginx/sites-available/default
+cp -i ./nginx/sites-available/default /etc/nginx/sites-available/default -y
 nginx -t
 systemctl restart nginx
