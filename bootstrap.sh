@@ -8,7 +8,7 @@ cd /home/ubuntu/git/node-server
 npm install
 pm2 start hello.js
 pm2 startup systemd
-sudo su -c "env PATH=$PATH:/usr/bin pm2 startup systemd -u ubuntu --hp /home/ubuntu"
+sudo su -c "env PATH=$PATH:/usr/bin pm2 startup systemd -u administrator --hp /home/administrator"
 systemctl status pm2
 pm2 list
 #install nginx
