@@ -1,4 +1,4 @@
-curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh
+curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
 sudo apt-get -y install nodejs -y
 sudo apt-get -y install build-essential
 sh nodesource_setup.sh
